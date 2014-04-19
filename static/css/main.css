@@ -1,0 +1,94 @@
+/*
+ * Main style sheet for dankolban.com
+ * By Dan Kolbman
+ */
+html, body, .home {
+  background: #FCF9F0;
+
+  color: #444;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.4em;
+
+  margin: 0px;
+  padding: 0px;
+}
+
+#wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#header {
+  background:#222;
+  height: 15px;
+}
+
+#main {
+  margin-left: 180px; 
+  padding-left: 35px;
+  border-left: 4px solid #DBD6BF;
+}
+
+h1.entry-title {
+  padding-top: 20px;
+  margin: 0;
+}
+
+/* Sidebar and logo */
+#sidebar {
+  float: left;
+  width: 180px;
+}
+
+#sidebar a {
+  color: #333;
+  text-decoration: none;
+}
+
+#sidebar h1 {
+  line-height: 0.8em;
+  font-size: 28pt;
+  padding-top: 20px;
+  margin: 0 5px;
+}
+
+/* Navigation and button stuff */
+
+#nav ul {
+  list-style-type: none;
+  padding: 5px 0;
+  margin: 10px 5px;
+  border-top: 3px dotted #555;
+}
+
+#nav li {
+  font-size: 22px;
+  text-align: center;
+  vertical-align: middle;
+
+  padding: 5px 0;
+  background: none;
+}
+
+#nav a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+/*
+#nav li:hover, #nav a:hover {
+  background: #333;
+  color: #DDD;
+}
+*/
+#nav li.active {
+  background: #DBD6BF;
+}
+
+#footer {
+  clear: both;
+  background: #333;
+  height: 15px;
+}
+
